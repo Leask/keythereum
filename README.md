@@ -2,13 +2,13 @@
 
 [![Build Status](https://travis-ci.org/ethereumjs/keythereum.svg?branch=master)](https://travis-ci.org/ethereumjs/keythereum) [![Coverage Status](https://coveralls.io/repos/github/ethereumjs/keythereum/badge.svg?branch=master)](https://coveralls.io/github/ethereumjs/keythereum?branch=master) [![npm version](https://badge.fury.io/js/keythereum.svg)](http://badge.fury.io/js/keythereum)
 
+*Important: This is a `Pure JS` forked version from [keythereum](https://github.com/ethereumjs/keythereum). It may work slower, but works well in Node.js v12 and above. Use the original version unless you know what you are doing.*
+
 Keythereum is a JavaScript tool to generate, import and export Ethereum keys.  This provides a simple way to use the same account locally and in web wallets.  It can be used for verifiable cold storage wallets.
 
 Keythereum uses the same key derivation functions (PBKDF2-SHA256 or scrypt), symmetric ciphers (AES-128-CTR or AES-128-CBC), and message authentication codes as [geth](https://github.com/ethereum/go-ethereum).  You can export your generated key to file, copy it to your data directory's keystore, and immediately start using it in your local Ethereum client.
 
 *Note: starting in version 0.5.0, keythereum's `encrypt` and `decrypt` functions both return Buffers instead of strings.  This is a breaking change for anyone using these functions directly!*
-
-*Important: This is a `Pure JS` forked version from [keythereum](https://github.com/ethereumjs/keythereum). It maybe slow, but works well in Node.js v12 and above.*
 
 ## Installation
 
