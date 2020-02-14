@@ -1,4 +1,4 @@
-# keythereum
+# keythereum-pure-js
 
 [![Build Status](https://travis-ci.org/ethereumjs/keythereum.svg?branch=master)](https://travis-ci.org/ethereumjs/keythereum) [![Coverage Status](https://coveralls.io/repos/github/ethereumjs/keythereum/badge.svg?branch=master)](https://coveralls.io/github/ethereumjs/keythereum?branch=master) [![npm version](https://badge.fury.io/js/keythereum.svg)](http://badge.fury.io/js/keythereum)
 
@@ -8,10 +8,12 @@ Keythereum uses the same key derivation functions (PBKDF2-SHA256 or scrypt), sym
 
 *Note: starting in version 0.5.0, keythereum's `encrypt` and `decrypt` functions both return Buffers instead of strings.  This is a breaking change for anyone using these functions directly!*
 
+*Important: This is a `Pure JS` forked version from [keythereum](https://github.com/ethereumjs/keythereum). It maybe slow, but works well in Node.js v12 and above.*
+
 ## Installation
 
 ```
-npm install keythereum
+npm install keythereum-pure-js
 ```
 
 ## Usage
