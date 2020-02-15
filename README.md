@@ -21,7 +21,7 @@ npm install keythereum-pure-js
 To use keythereum in Node.js, just `require` it:
 
 ```javascript
-var keythereum = require("keythereum");
+var keythereum = require("keythereum-pure-js");
 ```
 
 A minified, browserified file `dist/keythereum.min.js` is included for use in the browser.  Including this file simply attaches the `keythereum` object to `window`:
