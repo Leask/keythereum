@@ -1,7 +1,7 @@
 {
   "name": "keythereum-pure-js",
   "version": "1.1.2",
-  "description": "Create, import and export Ethereum keys. Pure JS fork works with Node.js v12 and above.",
+  "description": "Create, import and export Ethereum keys. Pure JS forked version works with Node.js v12 and above.",
   "main": "index.js",
   "directories": {
     "test": "test",
