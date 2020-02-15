@@ -348,7 +348,7 @@ module.exports = {
     ciphertext = this.encrypt(privateKey, derivedKey.slice(0, 16), iv, algo).toString("hex");
 
     keyObject = {
-      address: this.privateKeyToAddress(privateKey).slice(2),
+      address: options.noAddress ? undefined : this.privateKeyToAddress(privateKey).slice(2),
       crypto: {
         cipher: options.cipher || this.constants.cipher,
         ciphertext: ciphertext,
