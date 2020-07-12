@@ -10,7 +10,7 @@ var isBrowser = typeof process === "undefined" || !process.nextTick || Boolean(p
 var sjcl = require("sjcl");
 var uuid = require("uuid");
 var secp256k1 = require("secp256k1/elliptic");
-var createKeccakHash = require("keccak/js");
+var createKeccakHash = require("keccak-pure-js");
 
 function isFunction(f) {
   return typeof f === "function";
